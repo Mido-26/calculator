@@ -1,0 +1,54 @@
+body{
+	margin: 0;
+	padding: 0;
+
+}
+.Calculator{
+	width: 100%;
+	height: 100vh;
+	background-color: #313131;
+	position: relative;
+	outline: 3px solid;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	/*top: 50%;*/
+	/*align-content: center;*/
+}
+.caluu{
+	position: absolute;
+	top: 20%;
+	width: auto;
+	height: auto;
+	/*outline: 3px solid ;*/
+	padding: 20px;
+	border-radius: 10px;
+	background-color: rgba(67, 67, 151, 0.2);
+}
+.caluu form input{
+	
+	background-color: antiquewhite;
+	cursor: pointer;
+	width: 60px;
+	height: 60px;
+	margin: 5px;
+	padding: 5px;
+	font-weight: bolder;
+	font-family: popins;
+	border-radius: 10px;
+	border: none;
+	color: black;
+	font-size: 18px;
+	outline: none;
+	box-shadow: -10px -10px 20px rgba(255, 255, 255, 0.2) 10px 10px 20px rgba(0, 0, 0, 0.1) ;
+}
+.caluu form .display{
+	width: 267px;
+	cursor: default;
+	height: 80px;
+	font-size: 30px;
+	text-align: right;
+}
+.caluu form .equals{
+	width: 137px;
+}
